@@ -1,0 +1,103 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# LangChain / RAG
+# =========================
+
+# Vector databases / indexes
+chroma/
+chroma_db/
+chromadb/
+vectorstore/
+vector_store/
+faiss_index/
+*.faiss
+*.pkl
+
+# Local embeddings / models
+models/
+embeddings/
+huggingface/
+.cache/
+.cache/huggingface/
+
+# =========================
+# RAG Documents
+# =========================
+# Ignore uploaded/private documents
+uploads/
+documents/
+data/
+*.pdf
+*.docx
+*.txt
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+venv-rag/
